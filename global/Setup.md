@@ -1,7 +1,7 @@
 <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/paylogo.svg" alt="Payphp Logo" width="200" height="200">
 <br/><br/>
 
-##### 正版授权购买地址 [立即购买](https://qm.qq.com/q/l8HDomqX4I)
+##### 正版授权购买地址  
 
 ## 系统简介
 
@@ -21,12 +21,12 @@ payphp码支付-是专为个人站长打造的聚合免签系统，拥有卓越�
 后端：暂不开放（图片演示）
 ![66af2dfe9feb3.png](https://www.lovea.xin/usr/uploads/2024/08/2209369460.png "66af2dfe9feb3.png")
 
-## 正版授权购买地址 [立即购买](https://m.sbu.cc/#/goods?gid=1)
+## 正版授权购买地址 
 
-1.免费升级， 我们将持续修复程序bug和更新功能，并提供免费升级服务，让您永远享受最新的payphp体验。
-2.售后无忧， 我们提供专属客服、售后技术、论坛等全方位的售后服务，确保您的正常使用体验。
-3.保障服务， 您将免费获取后期软件升级的新功能，并无需额外付费。
-4.商用授权， 购买商业授权后，您将获得payphp码支付商业使用授权，让您更加放心地使用payphp码支付。
+- 1.免费升级， 我们将持续修复程序bug和更新功能，并提供免费升级服务，让您永远享受最新的payphp体验。
+- 2.售后无忧， 我们提供专属客服、售后技术、论坛等全方位的售后服务，确保您的正常使用体验。
+- 3.保障服务， 您将免费获取后期软件升级的新功能，并无需额外付费。
+- 4.商用授权， 购买商业授权后，您将获得payphp码支付商业使用授权，让您更加放心地使用payphp码支付。
 
 ## 程序运行环境
 
@@ -115,14 +115,14 @@ RewriteRule . index.php [L]
 
 ###### 安装和配置Swoole Loader 扩展
 
-1 – 下载Swoole Loader请下载兼容PHP8.0.26和非线程安全的Swoole Loader扩展
+- 1 – 下载Swoole Loader请下载兼容PHP8.0.26和非线程安全的Swoole Loader扩展
 [点击下载 unix PHP8.0 Swoole Loader扩展文件](https://sbu.cc/p/Windows/swoole_loader_80_nts.so)
-2 – 安装Swoole Loader
+- 2 – 安装Swoole Loader
 将刚才下载的Swoole Loader扩展文件（swoole\_loader\_80\_nts.so）
 上传到当前PHP的扩展安装目录中：/www/server/php/80/lib/php/extensions/no-debug-non-zts-20200930
 ![QQ20240820-140344.png](https://www.lovea.xin/usr/uploads/2024/08/2419855431.png "QQ20240820-140344.png")
 
-3 – 修改php.ini配置（如已修改配置，请忽略此步骤，不必重复添加）
+- 3 – 修改php.ini配置（如已修改配置，请忽略此步骤，不必重复添加）
 
 编辑此PHP配置文件：/www/server/php/80/etc/php.ini
 在此文件底部结尾处加入如下配置并且保存 ：extension=swoole\_loader\_80\_nts.so

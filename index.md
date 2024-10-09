@@ -19,15 +19,15 @@ hero:
 
     - theme: brand
       text: 立即开户
-      link: https://www.catmv.cn
+      link: https://payphp.cn
 
     - theme: alt
       text: 开发文档
-      link: https://www.maovideo.com/libs/share/index.html
+      link: https://www.payphp.cn/User/PrdDoc/Index
 
     - theme: alt
       text: 商户中心
-      link: https://www.maovideo.com/libs/share/index.html
+      link: https://www.payphp.cn/User/Home/Index
 
       
 
