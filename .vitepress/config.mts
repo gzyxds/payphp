@@ -15,7 +15,7 @@ import { defineConfig } from "vitepress";
       }
     ],
     "editLink": {
-      "pattern": "https://github.com/gzyxds/maovideo",
+      "pattern": "https://github.com/gzyxds/payphp",
       "text": "编辑本页"
     },
     "nav": [
@@ -29,8 +29,7 @@ import { defineConfig } from "vitepress";
       },
       {
         "text": "系统介绍",
-        "link": "",
-        "items": []
+        "link": "/global/index"
       }
     ],
     "sidebar": [
@@ -46,6 +45,19 @@ import { defineConfig } from "vitepress";
             "link": "/global/auth"
           }
         ]
+      },
+      {
+        "text": "部署教程",
+        "items": [
+          {
+            "text": "环境需求",
+            "link": ""
+          },
+          {
+            "text": "宝塔安装",
+            "link": ""
+          }
+        ]
       }
     ],
     "footer": {
@@ -55,8 +67,8 @@ import { defineConfig } from "vitepress";
     "prev": "上一篇",
     "returnToTopLabel": "返回顶部",
     "outline": "目录",
-    "externalLinkIcon": false,
-    "i18nRouting": true,
+    "externalLinkIcon": true,
+    "i18nRouting": false,
     "search": {
       "provider": "local",
       "options": {
@@ -154,19 +166,19 @@ import { defineConfig } from "vitepress";
     "lightModeSwitchTitle": "切换到浅色模式",
     "darkModeSwitchTitle": "切换到深色模式",
     "docFooter": {
-      "prev": "Previous page",
-      "next": "Next Page"
+      "prev": "上一页",
+      "next": "下一页"
     }
   },
   "srcDir": "./",
   "assetsDir": "static",
   "sitemap": {
-    "hostname": "https://example.com",
+    "hostname": "https://payphp.cn",
     "lastmodDateOnly": false
   },
   "locales": {},
   "cacheDir": "./.vitepress/cache",
-  "titleTemplate": "| simple config vitepress",
+  "titleTemplate": "聚合支付系统",
   "lang": "en-US",
   "base": "/",
   "outDir": "./.vitepress/dist",
