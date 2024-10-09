@@ -13,8 +13,8 @@ import { defineConfig } from "vitepress";
     "sidebarMenuLabel": "目录",
     "socialLinks": [
       {
-        "icon": "Payphp",
-        "link": "https://github.com/gzyxds/maovideo"
+        "icon": "github",
+        "link": "https://github.com/gzyxds/payphp"
       }
     ],
     "editLink": {
