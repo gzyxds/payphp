@@ -3,7 +3,6 @@ payphp支付系统PHP版
 [在线体验](https://www.payphp.cn) |
 [帮助文档](https://www.payphp.cn)
 
-
 ### 📝 介绍
 
 Payphp是专为个人站长打造的聚合免签系统，拥有卓越的性能和丰富的功能。它采用全新轻量化的界面UI，让您能更方便快捷地解决知识付费和运营赞助的难题。
@@ -36,7 +35,7 @@ Redis
 Supervison
 ```
 
-> 温馨提示：虚拟空间不支持，推荐使用bt宝塔面板，服务器推荐 ：https://cloud.yfxw.cn
+> 温馨提示：虚拟空间不支持，推荐使用bt宝塔面板，服务器推荐 ：
 
 ### 📱 系统演示
 
@@ -46,7 +45,6 @@ Supervison
 
 账号：admin 密码：123456
 
----
 
 ### 🔐 安装教程
 
@@ -56,7 +54,6 @@ Supervison
 
 查看安装教程！
 
----
 
 ### 📞 Paypap互动
 
@@ -70,7 +67,6 @@ Supervison
 
 排名不分先后，感谢这些软件的开发者：thinkphp、layui、vue、mysql、redis、PearAdmin等，如有遗漏请联系我！
 
----
 
 ### 📺 版权须知
 
@@ -84,7 +80,6 @@ Apache License 2.0 许可的主要内容包括：
 
 Apache License 2.0 是一种宽松的开源许可，允许人们自由使用、修改和分发软件。
 
----
 
 ### 💾 版权信息
 
