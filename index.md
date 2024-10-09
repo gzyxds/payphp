@@ -23,7 +23,7 @@ hero:
 
     - theme: alt
       text: 开发文档
-      link: https://www.payphp.cn/User/PrdDoc/Index
+      link: https://www.maovideo.com/libs/share/index.html
 
     - theme: alt
       text: 商户中心
