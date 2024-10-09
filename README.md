@@ -1,44 +1,8 @@
-© 2024 API.CNAI.ART. All Rights Reserved.
-本站API适用于测试和体验目的，请自觉遵守您当地法律法规，切勿用于非法用途，本站不承担任何法律责任。
-
-<div>
-<div align="center" >
-    <img width="200px" src="https://payphp-1307986889.cos.ap-guangzhou.myqcloud.com/logo/logo1.png" />
-</div>
-<div align="center">
-</div>
-
 payphp支付系统PHP版
-
-
-<div align="center" >
-    <a href="https://www.yfx.top">
-        <img src="https://img.shields.io/badge/YPay-1.2.0-blue.svg" />
-    </a>
-    <a href="https://www.yfx.top">
-        <img src="https://img.shields.io/badge/Licence-Apache2.0-green.svg?style=flat" />
-    </a>
-    <a href="https://www.yfx.top">
-        <img src="https://img.shields.io/badge/PHP-8.1-skin.svg" />
-    </a>
-    <a href="https://www.yfx.top">
-        <img src="https://img.shields.io/badge/MySql-5.6+-red.svg" />
-    </a>
-</div>
-
-<div align="center">
-
 [官网](https://www.payphp.cn) |
 [在线体验](https://www.payphp.cn) |
 [帮助文档](https://www.payphp.cn)
 
----
-
-### 📋 更新说明
-
-### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，150个Star🌟更新V1.2.1版本,等你点亮！
-
----
 
 ### 📝 介绍
 
@@ -78,7 +42,7 @@ Supervison
 
 演示前台：[https://www.payphp.cn](https://www.payphp.cn)
 
-管理后台： 
+管理后台：
 
 账号：admin 密码：123456
 
@@ -99,7 +63,6 @@ Supervison
 #### Paypap开源技术交流群
 
 交流群:1037205629
-
 
 ---
 
@@ -131,5 +94,5 @@ Apache License 2.0 是一种宽松的开源许可，允许人们自由使用、�
 
 All rights reserved。
 
-
 ---
+
