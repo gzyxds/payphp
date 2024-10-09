@@ -29,8 +29,7 @@ import { defineConfig } from "vitepress";
       },
       {
         "text": "🍵商户Q群",
-        "link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pzEdJWFE4HZILcT0W6oQRzbOkssMNIPO&authKey=%2BsgNMPOiqreGqWHmBvfK2Sli1%2FvwF%2FnvykPpB0LBF5wuwrWWp8Ogst9mGZYuuNqE&noverify=0&group_code=1037205629
-"
+        "link": "https://qm.qq.com/cgi-bin/qm/qr?k=hiPJrntFaxlzcF6pJ4swHNrXGxbv16Ek&jump_from=webapi&authKey=w1QVa8tZUkbAZSL6EoQIaoko1frqj+a67i2SRMgWGe/UvB+i8bvse5CdCXF3wJKS"
       },
       {
         "text": "💬联系客服",

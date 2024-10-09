@@ -11,7 +11,15 @@
 商业授权可享受官方更多技术支持拒绝盗版，尊重知识产权，从你我做起
 
 :::
- 
+
+<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=u4qcUuci9E55i8UmpCY3eBLlNyT7CBGc&jump_from=webapi&authKey=oMIgagv9IwNZlqyhqDxnWeb+nOo7vnwkFNqJoC/4rhTpQdiKDMhGiWTgliQC9X5k"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="优刻云支付" title="优刻云支付"></a>
+
+
+
+<a target="_blank" href="https://qm.qq.com/q/l8HDomqX4I"><img border="0" src="http://toolla.com/QQCode/images/02_online.gif" alt="优刻云支付" title="优刻云支付"></a>
+
+<a target="_blank" href="tencent://message/?uin=236749035&Menu=yes"><img src="http://www.18kmw.com/qq/codes/one/images/q_1.gif" border="0" alt="点击咨询" title="点击咨询"></a> 
+
 ## 加入我们
 
 - [Payphp](https://Payphp.cn/) 还在持续更新中，本项目欢迎您的参与，共同维护。
