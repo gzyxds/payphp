@@ -10,7 +10,7 @@ import { defineConfig } from "vitepress";
     "sidebarMenuLabel": "目录",
     "socialLinks": [
       {
-        "icon": "github",
+        "icon": "Payphp",
         "link": "https://github.com/gzyxds/maovideo"
       }
     ],
@@ -20,49 +20,87 @@ import { defineConfig } from "vitepress";
     },
     "nav": [
       {
-        "text": "首页",
+        "text": "🖥网站首页",
         "link": "/"
       },
       {
-        "text": "商户中心",
-        "link": "/Examples"
+        "text": "💹商户中心",
+        "link": "https://www.payphp.cn/User/Login/Index"
       },
       {
-        "text": "系统介绍",
+        "text": "🍵商户Q群",
+        "link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pzEdJWFE4HZILcT0W6oQRzbOkssMNIPO&authKey=%2BsgNMPOiqreGqWHmBvfK2Sli1%2FvwF%2FnvykPpB0LBF5wuwrWWp8Ogst9mGZYuuNqE&noverify=0&group_code=1037205629
+"
+      },
+      {
+        "text": "💬联系客服",
+        "link": "https://qm.qq.com/q/l8HDomqX4I"
+      },
+      {
+        "text": "🎉系统介绍",
         "link": "/global/index"
       }
     ],
-    "sidebar": [
+
+    "sidebar": [  // 侧边栏配置
       {
-        "text": "帮助中心",
+        "text": "🖥️帮助中心",
+        "collapsed": false,
         "items": [
           {
-            "text": "系统介绍",
+            "text": "🎉系统介绍",
             "link": "/global/index"
           },
           {
-            "text": "源码授权",
-            "link": "/global/auth"
+            "text": "🏅源码授权",
+            "link": "/global/shop"
           }
         ]
       },
       {
-        "text": "部署教程",
+        "text": "📖部署教程",
+        "collapsed": false,
         "items": [
           {
-            "text": "环境需求",
-            "link": ""
+            "text": "✨环境需求",
+            "link": "/global/runtime"
           },
           {
-            "text": "宝塔安装",
-            "link": ""
+            "text": "🎨宝塔安装",
+            "link": "/global/Setup"
+          }
+        ]
+      },
+      {
+        "text": "🍵友情连接",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "📫枭格科技",
+            "link": "http://www.xgphp.cn/"
+          },
+          {
+            "text": "☁优刻云",
+            "link": "https://www.cloudcvm.com/"
+          },
+          {
+            "text": "🎉AI创作",
+            "link": "https://comnew.cn/"
+          },
+          {
+            "text": "🎨AIGC系统",
+            "link": "https://docs.xgphp.cn/"
+          },
+          {
+            "text": "👀CodePu",
+            "link": "http://www.codepu.cn/"
           }
         ]
       }
     ],
     "footer": {
-      "message": "Released under the MaoVideo Public License.",
-      "copyright": "Copyright © 2024-MAOVIDEO All Rights Reserved"
+      "message": "Released under the Payphp.cn Public License.",
+      "copyright": "Copyright © 2024-Payphp.cn All Rights Reserved"
     },
     "prev": "上一篇",
     "returnToTopLabel": "返回顶部",

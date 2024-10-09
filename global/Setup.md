@@ -14,7 +14,7 @@ Peak码支付-是专为个人站长打造的聚合免签系统，拥有卓越的
 
 ## 演示地址
 
-前端：[https://sbu.cc](https://sbu.cc/)
+前端：[https://payphp.cn](https://payphp.cn/)
 后端：暂不开放（图片演示）
 ![66af2dfe9feb3.png](https://www.lovea.xin/usr/uploads/2024/08/2209369460.png "66af2dfe9feb3.png")
 
@@ -157,3 +157,4 @@ admin/123456
 后台地址:
 你的域名/admin.zero
 ![QQ20240820-140552.png](https://www.lovea.xin/usr/uploads/2024/08/2903812852.png "QQ20240820-140552.png")
+
