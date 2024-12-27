@@ -14,12 +14,12 @@ hero:
     
   actions:
     - theme: brand
-      text: 快速开始
-      link: https://payphp.cn
+      text: 系统源码
+      link: https://merchant.payphp.cn/
 
     - theme: brand
       text: 立即开户
-      link: https://payphp.cn
+      link: https://merchant.payphp.cn/
 
     - theme: alt
       text: 开发文档
@@ -27,7 +27,7 @@ hero:
 
     - theme: alt
       text: 商户中心
-      link: https://www.payphp.cn/User/Home/Index
+      link: https://merchant.payphp.cn/
 
       
 

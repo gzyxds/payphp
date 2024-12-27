@@ -28,7 +28,7 @@ import { defineConfig } from "vitepress";
       },
       {
         "text": "💹商户中心",
-        "link": "https://www.payphp.cn/User/Login/Index"
+        "link": "hhttps://merchant.payphp.cn/
       },
       {
         "text": "🍵商户Q群",
