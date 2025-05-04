@@ -78,7 +78,7 @@ import { defineConfig } from "vitepress";
         "collapsed": false,
         "items": [
           {
-            "text": "☁优刻云",
+            "text": "🌩️优刻云",
             "link": "https://www.cloudcvm.com"
           },
           {
