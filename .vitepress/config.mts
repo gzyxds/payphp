@@ -27,8 +27,12 @@ import { defineConfig } from "vitepress";
         "link": "/"
       },
       {
+        "text": "🎉系统介绍",
+        "link": "/help/index"
+      },
+      {
         "text": "💹商户中心",
-        "link": "hhttps://merchant.payphp.cn/
+        "link": "https://merch.payphp.cn/"
       },
       {
         "text": "🍵商户Q群",
@@ -37,10 +41,6 @@ import { defineConfig } from "vitepress";
       {
         "text": "💬联系客服",
         "link": "https://qm.qq.com/q/l8HDomqX4I"
-      },
-      {
-        "text": "🎉系统介绍",
-        "link": "/global/index"
       }
     ],
 
@@ -51,11 +51,11 @@ import { defineConfig } from "vitepress";
         "items": [
           {
             "text": "🎉系统介绍",
-            "link": "/global/index"
+            "link": "/help/index"
           },
           {
             "text": "🏅源码授权",
-            "link": "/global/shop"
+            "link": "/help/shop"
           }
         ]
       },
@@ -65,11 +65,11 @@ import { defineConfig } from "vitepress";
         "items": [
           {
             "text": "✨环境需求",
-            "link": "/global/runtime"
+            "link": "/help/runtime"
           },
           {
             "text": "🎨宝塔安装",
-            "link": "/global/Setup"
+            "link": "/help/Setup"
           }
         ]
       },
@@ -78,23 +78,23 @@ import { defineConfig } from "vitepress";
         "collapsed": false,
         "items": [
           {
-            "text": "📫枭格科技",
-            "link": "http://www.xgphp.cn/"
-          },
-          {
             "text": "☁优刻云",
-            "link": "https://www.cloudcvm.com/"
+            "link": "https://www.cloudcvm.com"
           },
           {
-            "text": "🎉AI创作",
-            "link": "https://comnew.cn/"
+            "text": "💡艺创AI",
+            "link": "https://artaigc.cn/"
           },
           {
-            "text": "🎨AIGC系统",
-            "link": "https://docs.xgphp.cn/"
+            "text": "🎯AI创作",
+            "link": "https://www.cnai.art/"
           },
           {
-            "text": "👀CodePu",
+            "text": "📲172号卡",
+            "link": "https://www.urlka.cn"
+          },
+          {
+            "text": "🏷️优惠购",
             "link": "http://www.codepu.cn/"
           }
         ]

@@ -1,52 +1,52 @@
 {
-  "hash": "73906538",
-  "configHash": "79f422db",
-  "lockfileHash": "6feeb972",
-  "browserHash": "554cf9fc",
+  "hash": "4b9cb9d5",
+  "configHash": "b97baeb6",
+  "lockfileHash": "5deb873f",
+  "browserHash": "94cf924b",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "3223aa31",
+      "fileHash": "736cf7b8",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "a01078da",
+      "fileHash": "4fb0bda7",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "05653e95",
+      "fileHash": "b0c88962",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "cf079ce3",
+      "fileHash": "04872bcb",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "beed624e",
+      "fileHash": "b36ac4a2",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "ce0e0939",
+      "fileHash": "4517e04a",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-FH2QKAGN": {
-      "file": "chunk-FH2QKAGN.js"
+    "chunk-OCTXCHEL": {
+      "file": "chunk-OCTXCHEL.js"
     },
-    "chunk-QPQFSO6H": {
-      "file": "chunk-QPQFSO6H.js"
+    "chunk-E7S7CGLT": {
+      "file": "chunk-E7S7CGLT.js"
     }
   }
 }

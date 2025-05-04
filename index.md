@@ -4,8 +4,8 @@ layout: home
 
  
 hero:     
-  name: "码支付"
-  text: "Payphp.cn"
+  name: "Payphp"
+  text: "采用全新的speedPHP框架开发 多线程Cur检测账单 秒回调"
   tagline: 行业领先的免签约收款聚合支付平台！
   
   image: 
@@ -15,19 +15,19 @@ hero:
   actions:
     - theme: brand
       text: 系统源码
-      link: https://merchant.payphp.cn/
+      link: https://merch.payphp.cn/
 
     - theme: brand
       text: 立即开户
-      link: https://merchant.payphp.cn/
+      link: https://merch.payphp.cn/
 
     - theme: alt
       text: 开发文档
-      link: https://www.maovideo.com/libs/share/index.html
+      link: https://merch.payphp.cn/
 
     - theme: alt
       text: 商户中心
-      link: https://merchant.payphp.cn/
+      link: https://merch.payphp.cn/
 
       
 
@@ -127,6 +127,6 @@ features:
 :::
 
 
-::: danger Payphp支付系统
- [点我跳转：立即使用](https://payphp.cn)
+::: danger Payphp
+ [点我跳转：立即使用](https://merch.payphp.cn)
  :::
