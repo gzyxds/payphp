@@ -127,6 +127,6 @@ features:
 :::
 
 
-::: danger Payphp
+::: danger Payphp支付系统
  [点我跳转：立即使用](https://merch.payphp.cn)
  :::
