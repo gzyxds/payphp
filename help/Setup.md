@@ -94,7 +94,7 @@ php Swoole Loader加密扩展
 #### 以下是伪静态代码 不用设置运行目录
 
 Nginx的
-
+```
     location / {
         if (!-e $request_filename){
             rewrite  ^(.*)$  /index.php?s=$1  last;   break;
@@ -103,9 +103,9 @@ Nginx的
     location ^~ /protected {
         deny all;
     }
-
+```
 Apache的
-
+```
     <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^index\.php$ - [L]
@@ -113,7 +113,7 @@ Apache的
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . index.php [L]
     </IfModule>
-
+```
 ##### 4.安装SW拓展
 
 ###### 检查当前环境
