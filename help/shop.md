@@ -9,17 +9,19 @@
 
 ::: info 商业授权
 商业授权可享受官方更多技术支持拒绝盗版，尊重知识产权，从你我做起
-
 ::: 
 
-<div style="display: inline-block;">
-  <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/user.png" alt="Payphp Logo" width="200" height="200">
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <div style="text-align: center; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background: #fff;">
+    <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/user.png" alt="微信二维码" width="200" height="200" style="border-radius: 4px;">
+    <p style="margin: 10px 0 0; color: #666; font-size: 14px;">微信二维码</p>
+  </div>
+  
+  <div style="text-align: center; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background: #fff;">
+    <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/gzh.png" alt="公众号二维码" width="200" height="200" style="border-radius: 4px;">
+    <p style="margin: 10px 0 0; color: #666; font-size: 14px;">公众号二维码</p>
+  </div>
 </div>
-
-<div style="display: inline-block;">
-  <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/gzh.png" alt="Payphp Logo" width="200" height="200">
-</div>
-
 
 
 
