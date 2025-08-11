@@ -7,7 +7,7 @@ import { defineConfig } from "vitepress";
 
   "themeConfig": {
     "siteTitle": false, // 禁用网站标题显示，只显示logo
-    "logo": "/logo.svg", // logo图片地址
+    "logo": "/images/logo.svg", // logo图片地址
     "outDir": "docs",
     "lastUpdated": true,
     "sidebarMenuLabel": "目录",
