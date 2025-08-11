@@ -9,7 +9,7 @@ hero:
   tagline: 行业领先的免签约收款聚合支付平台！
   
   image: 
-    src: /logo.svg
+    src: /.vitepress/images/logo.svg
     alt: 码支付
     
   actions:
