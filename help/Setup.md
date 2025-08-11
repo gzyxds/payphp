@@ -1,4 +1,4 @@
-<img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/paylogo.svg" alt="Payphp Logo" width="200" height="200">
+<img src="../.vitepress/images/logo.svg" alt="Payphp Logo" width="200" height="200">
 <br/><br/>
 
 ##### 正版授权购买地址  
@@ -11,7 +11,7 @@ payphp码支付-是专为个人站长打造的聚合免签系统，拥有卓越�
 
 **1.payphp系统采用全新的speedPHP框架开发，**
 2.使用多线程Curl检测账单回调,
-3.相比其它码系统效率提高上百倍不止,
+3.相比其它码系统效率提高上百倍不止, 
 4.多种支付最新协议以及出色的云端技术，
 5.和三重防掉单技术，让你的使用更加舒适。
 
@@ -54,120 +54,152 @@ PHP 8.0
 MySQL 5.7  
 php Swoole Loader加密扩展
 
-安装教程
-----
+## 安装教程
 
-##### 1.创建站点
+### 🎉 Peak部署教程
 
-1.添加站点。点击左侧菜单 网站→添加站点  
-![66af3268eb96c.png](https://sbu.cc/usr/uploads/2024/08/1757281693.png "66af3268eb96c.png")
+#### 第一步：创建站点
 
-2.输入你要绑定的 网站域名 （上一步中域名配置所解析的域名）， PHP选择8.0 。都填写后，点击 提交  
-![66af33b171b9d.png](https://sbu.cc/usr/uploads/2024/08/1635643847.png "66af33b171b9d.png")
+1. **添加站点**
+![添加站点](http://www.peakm.cn/content/uploadfile/202507/79001751826577.png)
+   - 点击左侧菜单 `网站` → `添加站点`
 
-3.浏览器新建标签页，输入你刚绑定的域名，看是否可以打开,访问如出现此提示，创建成功
+2. **配置域名**
+![添加站点](http://www.peakm.cn/content/uploadfile/202507/3e751751826663.png)
+   - 输入你要绑定的网站域名（上一步中域名配置所解析的域名）
+   - PHP版本选择 `8.0`
+   - 填写完成后，点击 `提交`
 
-##### 2.程序上传
+3. **验证站点**
+![添加站点](https://www.peakm.cn/content/uploadfile/202507/360c1751826748.png)
+   - 浏览器新建标签页，输入你刚绑定的域名
+   - 检查是否可以正常打开，如出现提示则创建成功
 
-1.在授权站下载自己的专属安装包保存源码压缩包至本地电脑  
-![66af35dada526.jpg](https://sbu.cc/usr/uploads/2024/08/3404379384.jpg "66af35dada526.jpg")  
-![QQ20240820-134414.png](https://sbu.cc/usr/uploads/2024/08/248687129.png "QQ20240820-134414.png")  
-2.进入宝塔面板，选择左侧菜单网站 ，点击新建的站点进入根目录  
-![66af3761bc204.jpg](https://sbu.cc/usr/uploads/2024/08/98214733.jpg "66af3761bc204.jpg")  
-3.点击左上角 上传  
-![QQ20240820-134545.png](https://sbu.cc/usr/uploads/2024/08/4037963687.png "QQ20240820-134545.png")
+---
 
-4.点击上传文件，选择本地电脑PeakPay前台程序.ZIP，然后点击 开始上传 ，等待上传完成，关闭上传窗口。  
-![QQ20240820-134641.png](https://sbu.cc/usr/uploads/2024/08/3899104863.png "QQ20240820-134641.png")
+#### 第二步：✨ 上传程序
 
-5.解压包至当前目录（根目录），等待解压完成。  
-![66af38a174c2e.jpg](https://sbu.cc/usr/uploads/2024/08/1977737251.jpg "66af38a174c2e.jpg")
+1. **下载安装包**
+   - 从授权站下载自己的专属安装包
+   - 保存源码压缩包至本地电脑
+  
 
-##### 3.站点配置
+2. **进入站点目录**
+   - 进入宝塔面板，选择左侧菜单 `网站`
+   - 点击新建的站点进入根目录
+   ![添加站点](https://www.peakm.cn/content/uploadfile/202507/11de1751826893.png)
+   ![添加站点](https://www.peakm.cn/content/uploadfile/202507/e2931751826909.png)
 
-1.进入宝塔面板，选择左侧菜单网站， - 设置。  
-![66af390b3d919.jpg](https://sbu.cc/usr/uploads/2024/08/729979836.jpg "66af390b3d919.jpg")
+3. **上传文件**
+   - 点击左上角 `上传` 按钮
 
-2.点击左侧伪静态，复制对应的伪静态,然后点击保存  
-![QQ20240820-134849.png](https://sbu.cc/usr/uploads/2024/08/722394352.png "QQ20240820-134849.png")
+4. **选择文件**
+   - 点击 `上传文件`，选择本地电脑 `程序.ZIP`
+   - 点击 `开始上传`，等待上传完成
+   - 关闭上传窗口
 
-#### 以下是伪静态代码 不用设置运行目录
+5. **解压文件**
+   - 解压包至当前目录（根目录）
+   - 等待解压完成
 
-Nginx的
-```
-    location / {
-        if (!-e $request_filename){
-            rewrite  ^(.*)$  /index.php?s=$1  last;   break;
-        }
+---
+
+#### 第三步：🌵 站点配置
+
+1. **进入设置**
+   - 进入宝塔面板，选择左侧菜单 `网站` → `设置`
+
+2. **配置伪静态**
+   - 点击左侧 `伪静态`
+   - 将以下nginx伪静态规则粘贴进去，然后点击 `保存`
+
+```nginx
+location / {
+    if (!-e $request_filename){
+        rewrite  ^(.*)$  /index.php?s=$1  last;   break;
     }
-    location ^~ /protected {
-        deny all;
-    }
+}
+location ^~ /protected {
+    deny all;
+}
+location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|js|css)$ {
+    # 设置缓存上面定义的后缀文件缓存到浏览器的生存时间
+    expires 3d;
+}
 ```
-Apache的
-```
-    <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^index\.php$ - [L]
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule . index.php [L]
-    </IfModule>
-```
-##### 4.安装SW拓展
 
-###### 检查当前环境
+---
 
-> 1.操作系统 localhost.localdomain 3.10.0-957.21.3.el7.x86\_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86\_64  
-> 2.PHP版本 :8.0.26  
-> 3.PHP运行环境  
-> 4.PHP配置文件 :/www/server/php/80/etc/php.ini  
-> 5.PHP扩展安装目录 :/www/server/php/80/lib/php/extensions/no-debug-non-zts-20200930
+#### 第四步：🌲 安装SW扩展
 
-###### 安装和配置Swoole Loader 扩展
+##### 检查当前环境
 
-1 – 下载Swoole Loader请下载兼容PHP8.0.26和非线程安全的Swoole Loader扩展  
-[点击下载 unix PHP8.0 Swoole Loader扩展文件](https://sbu.cc/goto?url=aHR0cHM6Ly93d3cuc2J1LmNjL3AvV2luZG93cy9zd29vbGVfbG9hZGVyXzgwX250cy5zbw==&cid=16)  
-2 – 安装Swoole Loader  
-将刚才下载的Swoole Loader扩展文件（swoole\_loader\_80\_nts.so）  
-上传到当前PHP的扩展安装目录中：/www/server/php/80/lib/php/extensions/no-debug-non-zts-20200930  
-![QQ20240820-140344.png](https://sbu.cc/usr/uploads/2024/08/2419855431.png "QQ20240820-140344.png")
+| 环境信息 | 详细配置 |
+|---------|---------|
+| 操作系统 | `localhost.localdomain 3.10.0-957.21.3.el7.x86_64` |
+| PHP版本 | `8.0.26` |
+| PHP配置文件 | `/www/server/php/80/etc/php.ini` |
+| PHP扩展安装目录 | `/www/server/php/80/lib/php/extensions/no-debug-non-zts-20200930` |
 
-3 – 修改php.ini配置（如已修改配置，请忽略此步骤，不必重复添加）
+##### 安装和配置Swoole Loader扩展
 
-编辑此PHP配置文件：/www/server/php/80/etc/php.ini  
-在此文件底部结尾处加入如下配置并且保存 ：extension=swoole\_loader\_80\_nts.so  
-注意：需要名称和刚才上传到当前PHP的扩展安装目录中的文件名一致  
-![QQ20240820-140220.png](https://sbu.cc/usr/uploads/2024/08/2987689684.png "QQ20240820-140220.png")  
-![66af3d3954d87.jpg](https://sbu.cc/usr/uploads/2024/08/1208260860.jpg "66af3d3954d87.jpg")
+1. **下载Swoole Loader**
+   - 访问安装域名后下载文件
 
-4 – 重启服务
+2. **安装Swoole Loader**
+   - 将下载的Swoole Loader扩展文件（`swoole_loader_80_nts.so`）
+   - 上传到当前PHP的扩展安装目录中：
+     ```
+     /www/server/php/80/lib/php/extensions/no-debug-non-zts-20200930
+     ```
 
-重启或重载PHP配置
+3. **修改php.ini配置**
+   > ⚠️ 如已修改配置，请忽略此步骤，不必重复添加
 
-5 – 返回首页 或 刷新当前页面即可
+4. **重启服务**
+   - 重启或重载PHP配置
 
-##### 5.在线安装
+5. **验证安装**
+   - 返回首页或刷新当前页面即可
 
-安装方面问问题不会回复（直属用户除外）系统在安装方面没有bug，如长时间未安装成功，请联系 `QQ: 236749035`  
-1.安装完环境以及扩展之后访问域名首页点击前往安装进入安装界面  
-![QQ20240820-140504.png](https://sbu.cc/usr/uploads/2024/08/2413443718.png "QQ20240820-140504.png")
+---
 
-2.输入数据库账户密码，点击下一步
+#### 第五步：🌳 在线安装
 
-忘记数据库账户密码在哪里查看？  
-进入宝塔面板，点击左侧菜单栏 `数据库` ，找到对应生成的数据库，复制粘贴信息到安装界面即  
-![66af3e28e47a9.jpg](https://sbu.cc/usr/uploads/2024/08/1695207121.jpg "66af3e28e47a9.jpg")  
-![QQ20240820-140525.png](https://sbu.cc/usr/uploads/2024/08/4267103493.png "QQ20240820-140525.png")
+> ⚠️ **注意**：长时间未安装成功，请联系官方
 
-3.输入完数据库账号密码数据名之后点击保存配置,在点击创建数据库表  
-![QQ20240820-140533.png](https://sbu.cc/usr/uploads/2024/08/1465903631.png "QQ20240820-140533.png")
+1. **进入安装界面**
+   - 安装完环境以及扩展之后访问域名首页
+   - 点击 `前往安装` 进入安装界面
 
-4.显示安装成功之后点击下一步  
-![QQ20240820-140542.png](https://sbu.cc/usr/uploads/2024/08/1969585695.png "QQ20240820-140542.png")
+2. **配置数据库**
+   - 输入数据库账户密码
+   - 点击 `下一步`
 
-5.添加成功，后台管理员账号密码:  
-admin/123456  
-后台地址:  
-你的域名/admin.zero  
-![QQ20240820-140552.png](https://sbu.cc/usr/uploads/2024/08/2903812852.png "QQ20240820-140552.png")
+3. **保存配置**
+   - 输入完数据库账号密码数据名之后点击 `保存配置`
+   - 再点击 `创建数据库表`
+
+4. **完成安装**
+   - 显示安装成功之后点击 `下一步`
+
+5. **获取管理信息**
+   - 安装完成！
+   - **默认管理账号**：`admin`
+   - **默认密码**：`123456`
+
+##### 网站访问地址
+
+| 类型 | 访问地址 |
+|------|---------|
+| 首页 | `你的域名` |
+| 后台管理 | `域名/admin.peak` |
+
+---
+
+#### 第六步：📊 计划任务配置
+
+计划任务有PHP版本和宝塔监控版本，在后台即可查看教程：
+
+- **服务器稳定**：使用PHP版本监控
+- **服务器不稳定或经常掉线**：使用宝塔监控

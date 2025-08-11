@@ -1,4 +1,5 @@
-<img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/paylogo.svg" alt="Payphp Logo" width="200" height="200">
+<img src="/logo.svg" alt="Payphp Logo" width="200" height="200">
+
 
 ### 系统介绍
 ::: info 系统介绍

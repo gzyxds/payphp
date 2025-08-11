@@ -1,4 +1,4 @@
- 作者信息
+作者信息
 :::  danger 联系我们
 姓名：胡 Sir
 
@@ -13,12 +13,12 @@
 
 <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
   <div style="text-align: center; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background: #fff;">
-    <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/user.png" alt="微信二维码" width="200" height="200" style="border-radius: 4px;">
+    <img src="../.vitepress/images/weixin.png" alt="微信二维码" width="200" height="200" style="border-radius: 4px;">
     <p style="margin: 10px 0 0; color: #666; font-size: 14px;">微信二维码</p>
   </div>
   
   <div style="text-align: center; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background: #fff;">
-    <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/gzh.png" alt="公众号二维码" width="200" height="200" style="border-radius: 4px;">
+    <img src="../.vitepress/images/gzh.jpg" alt="公众号二维码" width="200" height="200" style="border-radius: 4px;">
     <p style="margin: 10px 0 0; color: #666; font-size: 14px;">公众号二维码</p>
   </div>
 </div>
@@ -33,7 +33,7 @@
 
  
 ## 加入我们
-<img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/paylogo.svg" alt="Payphp Logo" width="200" height="200">
+<img src="../.vitepress/images/logo.svg" alt="Payphp Logo" width="200" height="200">
 
 - [Payphp](https://Payphp.cn/) 还在持续更新中，本项目欢迎您的参与，共同维护。
 - 如果你想加入我们，可以多提供一些好的建议或者提交 pr，我们会根据你的活跃度邀请你加入。
@@ -55,4 +55,5 @@
 <!-- 
 <img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/user.png" alt="Payphp Logo" width="200" height="200">
 
-<img src="https://payphp.oss-cn-shenzhen.aliyuncs.com/gzh.png" alt="Payphp Logo" width="200" height="200"> -->
+<img src="../images/gzh.png" alt="Payphp Logo" width="200" height="200"> -->
+

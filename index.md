@@ -5,11 +5,11 @@ layout: home
  
 hero:     
   name: "Payphp"
-  text: "采用全新的speedPHP框架开发 多线程Cur检测账单 秒回调"
+  text: "为个人企业提供全方位的支付解决方案"
   tagline: 行业领先的免签约收款聚合支付平台！
   
   image: 
-    src: https://payphp.oss-cn-shenzhen.aliyuncs.com/paylogo.svg
+    src: /logo.svg
     alt: 码支付
     
   actions:

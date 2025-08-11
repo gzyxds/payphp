@@ -6,8 +6,8 @@ import { defineConfig } from "vitepress";
   
 
   "themeConfig": {
-    "siteTitle": false,
-    "logo": "https://payphp.oss-cn-shenzhen.aliyuncs.com/paylogo.svg",
+    "siteTitle": false, // 禁用网站标题显示，只显示logo
+    "logo": "/logo.svg", // logo图片地址
     "outDir": "docs",
     "lastUpdated": true,
     "sidebarMenuLabel": "目录",
@@ -23,23 +23,27 @@ import { defineConfig } from "vitepress";
     },
     "nav": [
       {
-        "text": "🖥网站首页",
+        "text": "🏠 网站首页", // 使用简洁的emoji图标配合文字
         "link": "/"
       },
       {
-        "text": "🎉系统介绍",
+        "text": "ℹ️ 系统介绍", // 使用简洁的emoji图标配合文字
         "link": "/help/index"
       },
       {
-        "text": "💹商户中心",
+        "text": "📊 商户中心", // 使用简洁的emoji图标配合文字
         "link": "https://merch.payphp.cn/"
       },
       {
-        "text": "🍵商户Q群",
+        "text": "🌐 系统官网", // 使用简洁的emoji图标配合文字
+        "link": "https://payphp.cn/"
+      },
+      {
+        "text": "👥 商户Q群", // 使用简洁的emoji图标配合文字
         "link": "https://qm.qq.com/cgi-bin/qm/qr?k=hiPJrntFaxlzcF6pJ4swHNrXGxbv16Ek&jump_from=webapi&authKey=w1QVa8tZUkbAZSL6EoQIaoko1frqj+a67i2SRMgWGe/UvB+i8bvse5CdCXF3wJKS"
       },
       {
-        "text": "💬联系客服",
+        "text": "💬 联系客服", // 使用简洁的emoji图标配合文字
         "link": "https://qm.qq.com/q/l8HDomqX4I"
       }
     ],
@@ -93,20 +97,20 @@ import { defineConfig } from "vitepress";
             "text": "📲172号卡",
             "link": "https://www.urlka.cn"
           },
-          {
-            "text": "🏷️优惠购",
-            "link": "http://www.codepu.cn/"
-          }
+        
         ]
       }
     ],
     "footer": {
-      "message": "Released under the Payphp.cn Public License.",
-      "copyright": "Copyright © 2024-Payphp.cn All Rights Reserved"
+      "message": "赣ICP备2023002309号-8",
+      "copyright": "© 2024 PayPHP. 保留所有权利。"
     },
     "prev": "上一篇",
     "returnToTopLabel": "返回顶部",
-    "outline": "目录",
+    "outline": {
+      "label": "本页目录", // 右侧大纲标题的中文显示
+      "level": [2, 6] // 显示h2到h6级别的标题
+    },
     "externalLinkIcon": true,
     "i18nRouting": false,
     "search": {
