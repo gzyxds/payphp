@@ -11,6 +11,7 @@ export default defineConfig({
     siteTitle: false, // 禁用网站标题显示，只显示logo
     logo: "/logo.svg", // logo图片地址
     lastUpdated: true,
+    lastUpdatedText: "最后更新",
     sidebarMenuLabel: "目录",
     socialLinks: [
       {
