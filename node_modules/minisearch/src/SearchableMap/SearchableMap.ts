@@ -258,7 +258,7 @@ export default class SearchableMap<T = any> {
    * ```
    *
    * @param key  The key to update
-   * @param defaultValue  A function that creates a new value if the key does not exist
+   * @param initial  A function that creates a new value if the key does not exist
    * @return The existing or new value at the given key
    */
   fetch (key: string, initial: () => T): T {
@@ -390,8 +390,8 @@ const remove = <T = any>(tree: RadixTree<T>, key: string): void => {
   if (node.size === 0) {
     cleanup(path)
   } else if (node.size === 1) {
-    const [key, value] = node.entries().next().value
-    merge(path, key, value)
+    const [key, value] = node.entries().next().value!
+    merge(path, key as string, value as RadixTree<T>)
   }
 }
 
@@ -404,9 +404,9 @@ const cleanup = <T = any>(path: Path<T>): void => {
   if (node!.size === 0) {
     cleanup(path.slice(0, -1))
   } else if (node!.size === 1) {
-    const [key, value] = node!.entries().next().value
+    const [key, value] = node!.entries().next().value!
     if (key !== LEAF) {
-      merge(path.slice(0, -1), key, value)
+      merge(path.slice(0, -1), key as string, value as RadixTree<T>)
     }
   }
 }
