@@ -132,12 +132,12 @@ export default defineConfig({
               link: "/merchant/fqa/jk/APP"
             },
             {
-              text: "💻 PC闲蛋监控",
-              link: "/merchant/fqa/jk/监控端-PC闲蛋监控"
+              text: "💻 PC三网监控",
+              link: "/merchant/fqa/jk/pcxd"
             },
             {
               text: "🖥️ PC靓仔监控",
-              link: "/merchant/fqa/jk/监控端-PC靓仔监控"
+              link: "/merchant/fqa/jk/pclz"
             }
           ]
         },
@@ -147,24 +147,24 @@ export default defineConfig({
           items: [
             {
               text: "🐧 QQ通道",
-              link: "/merchant/fqa/td/通道管理-QQ"
+              link: "/merchant/fqa/td/qq"
             },
             {
-              text: "💚 微信通道",
-              link: "/merchant/fqa/td/通道管理-微信"
+              text: "💬 微信通道",
+              link: "/merchant/fqa/td/wx"
             },
             {
-              text: "💙 支付宝通道",
-              link: "/merchant/fqa/td/通道管理-支付宝"
+              text: "💰 支付宝通道",
+              link: "/merchant/fqa/td/zfb"
             },
-            {
-              text: "🥚 闲蛋通道",
-              link: "/merchant/fqa/td/通道管理-闲蛋"
-            },
-            {
-              text: "👦 靓仔通道",
-              link: "/merchant/fqa/td/通道管理-靓仔"
-            }
+            // {
+            //   text: "📱 闲蛋通道",
+            //   link: "/merchant/fqa/td/xd"
+            // },
+            // {
+            //   text: "👤 靓仔通道",
+            //   link: "/merchant/fqa/td/lz"
+            // }
           ]
         },
         {
