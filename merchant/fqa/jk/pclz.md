@@ -1,4 +1,4 @@
-# 靓仔PC监控
+# Payphp靓仔PC监控
 
 > [!TIP]
 > 本文挂机宝配置：2+2，Windows Server 2016 Datacenter 64-bit (10.0, Build 14393)
