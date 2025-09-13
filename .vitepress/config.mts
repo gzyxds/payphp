@@ -29,9 +29,14 @@ export default defineConfig({
         text: "🏠 网站首页", // 使用简洁的emoji图标配合文字
         link: "/"
       },
+      
       {
         text: "📋 系统介绍", // 使用简洁的emoji图标配合文字
         link: "/help/index"
+      },
+      {
+        text: "📚 商户文档", // 使用简洁的emoji图标配合文字
+        link: "/merchant/index"
       },
       {
         text: "📊 商户中心", // 使用简洁的emoji图标配合文字
@@ -51,102 +56,141 @@ export default defineConfig({
       }
     ],
 
-    sidebar: [  // 侧边栏配置
-      {
-        text: "🖥️帮助中心",
-        collapsed: false,
-        items: [
-          {
-            text: "🎉系统介绍",
-            link: "/help/index"
-          },
-          {
-            text: "🏅源码授权",
-            link: "/help/shop"
-          }
-        ]
-      },
-      {
-        text: "📖部署教程",
-        collapsed: false,
-        items: [
-          {
-            text: "✨环境需求",
-            link: "/help/runtime"
-          },
-          {
-            text: "🎨宝塔安装",
-            link: "/help/Setup"
-          }
-        ]
-      },
-      {
-        text: "📡监控端",
-        collapsed: false,
-        items: [
-          {
-            text: "📱APP监控",
-            link: "/fqa/jk/APP"
-          },
-          {
-            text: "💻PC闲蛋监控",
-            link: "/fqa/jk/监控端-PC闲蛋监控"
-          },
-          {
-            text: "🖥️PC靓仔监控",
-            link: "/fqa/jk/监控端-PC靓仔监控"
-          }
-        ]
-      },
-      {
-        text: "📡通道管理",
-        collapsed: false,
-        items: [
-          {
-            text: "🐾QQ通道",
-            link: "/fqa/td/通道管理-QQ"
-          },
-          {
-            text: "🍃微信通道",
-            link: "/fqa/td/通道管理-微信"
-          },
-          {
-            text: "💰支付宝通道",
-            link: "/fqa/td/通道管理-支付宝"
-          },
-          {
-            text: "🥇闲蛋通道",
-            link: "/fqa/td/通道管理-闲蛋"
-          },
-          {
-            text: "💎靓仔通道",
-            link: "/fqa/td/通道管理-靓仔"
-          }
-        ]
-      },
-      {
-        text: "🍵友情连接",
-        collapsed: false,
-        items: [
-          {
-            text: "🌩️优刻云",
-            link: "https://www.cloudcvm.com"
-          },
-          {
-            text: "💡艺创AI",
-            link: "https://artaigc.cn/"
-          },
-          {
-            text: "🎯AI创作",
-            link: "https://www.cnai.art/"
-          },
-          {
-            text: "📲172号卡",
-            link: "https://www.urlka.cn"
-          }
-        ]
-      }
-    ],
+    // 侧边栏配置 - 根据不同路径显示不同侧边栏
+    sidebar: {
+      // 根路径下的侧边栏
+      '/': [
+        {
+          text: "🖥️帮助中心",
+          collapsed: false,
+          items: [
+            {
+              text: "🎉系统介绍",
+              link: "/help/index"
+            },
+            {
+              text: "🏅源码授权",
+              link: "/help/shop"
+            }
+          ]
+        },
+        {
+          text: "📖部署教程",
+          collapsed: false,
+          items: [
+            {
+              text: "✨环境需求",
+              link: "/help/runtime"
+            },
+            {
+              text: "🎨宝塔安装",
+              link: "/help/Setup"
+            }
+          ]
+        },
+        {
+          text: "🍵友情连接",
+          collapsed: false,
+          items: [
+            {
+              text: "🌩️优刻云",
+              link: "https://www.cloudcvm.com"
+            },
+            {
+              text: "💡艺创AI",
+              link: "https://artaigc.cn/"
+            },
+            {
+              text: "🎯AI创作",
+              link: "https://www.cnai.art/"
+            },
+            {
+              text: "📲172号卡",
+              link: "https://www.urlka.cn"
+            }
+          ]
+        }
+      ],
+      // merchant路径下的侧边栏
+      '/merchant/': [
+        {
+          text: "🏪 商户中心",
+          collapsed: false,
+          items: [
+            {
+              text: "📋 商户概览",
+              link: "/merchant/index"
+            }
+          ]
+        },
+        {
+          text: "📱 监控端",
+          collapsed: false,
+          items: [
+            {
+              text: "📲 APP监控",
+              link: "/merchant/fqa/jk/APP"
+            },
+            {
+              text: "💻 PC闲蛋监控",
+              link: "/merchant/fqa/jk/监控端-PC闲蛋监控"
+            },
+            {
+              text: "🖥️ PC靓仔监控",
+              link: "/merchant/fqa/jk/监控端-PC靓仔监控"
+            }
+          ]
+        },
+        {
+          text: "💳 通道管理",
+          collapsed: false,
+          items: [
+            {
+              text: "🐧 QQ通道",
+              link: "/merchant/fqa/td/通道管理-QQ"
+            },
+            {
+              text: "💚 微信通道",
+              link: "/merchant/fqa/td/通道管理-微信"
+            },
+            {
+              text: "💙 支付宝通道",
+              link: "/merchant/fqa/td/通道管理-支付宝"
+            },
+            {
+              text: "🥚 闲蛋通道",
+              link: "/merchant/fqa/td/通道管理-闲蛋"
+            },
+            {
+              text: "👦 靓仔通道",
+              link: "/merchant/fqa/td/通道管理-靓仔"
+            }
+          ]
+        },
+        {
+          text: "🔗 相关链接",
+          collapsed: false,
+          items: [
+            {
+              text: "📖 系统介绍",
+              link: "/help/index"
+            },
+            {
+              text: "🔧 环境要求",
+              link: "/help/runtime"
+            },
+            {
+              text: "🛠️ 安装部署",
+              link: "/help/Setup"
+            },
+            {
+              text: "📜 源码授权",
+              link: "/help/shop"
+            }
+          ]
+        }
+      ]
+    },
     footer: {
       message: "赣ICP备2023002309号-8",
       copyright: "© 2024 PayPHP. 保留所有权利。"

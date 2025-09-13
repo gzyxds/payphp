@@ -1,0 +1,46 @@
+# 商户中心
+
+欢迎来到商户中心，这里提供了系统的详细使用指南和常见问题解答。
+
+## 快速开始
+
+1. **注册账号** - 访问 [商户中心](https://merch.payphp.cn/) 注册您的账号
+2. **登录系统** - 使用您的账号和密码登录商户中心
+3. **配置监控** - 根据您的需求配置 [APP监控](./fqa/jk/APP.md) 或 PC监控
+4. **设置通道** - 配置您的支付通道，如 [QQ通道](./fqa/td/通道管理-QQ.md)、[微信通道](./fqa/td/通道管理-微信.md) 等
+5. **开始使用** - 完成配置后，您就可以开始使用系统了
+
+## 功能导航
+
+### 监控端
+- [APP监控](./fqa/jk/APP.md) - 移动端监控配置指南
+- [PC闲蛋监控](./fqa/jk/监控端-PC闲蛋监控.md) - PC端闲蛋监控配置指南
+- [PC靓仔监控](./fqa/jk/监控端-PC靓仔监控.md) - PC端靓仔监控配置指南
+
+### 通道管理
+- [QQ通道](./fqa/td/通道管理-QQ.md) - QQ支付通道配置指南
+- [微信通道](./fqa/td/通道管理-微信.md) - 微信支付通道配置指南
+- [支付宝通道](./fqa/td/通道管理-支付宝.md) - 支付宝支付通道配置指南
+- [闲蛋通道](./fqa/td/通道管理-闲蛋.md) - 闲蛋支付通道配置指南
+- [靓仔通道](./fqa/td/通道管理-靓仔.md) - 靓仔支付通道配置指南
+
+## 常见问题
+
+如果您在使用过程中遇到任何问题，可以参考以下文档：
+
+- [系统介绍](../help/index.md) - 了解系统的基本功能和特点
+- [环境要求](../help/runtime.md) - 查看系统运行环境要求
+- [安装部署](../help/Setup.md) - 系统安装和部署指南
+- [源码授权](../help/shop.md) - 查看源码授权信息
+
+## 技术支持
+
+如果您需要更多帮助，可以通过以下方式联系我们：
+
+- 加入商户Q群：[点击加入](https://qm.qq.com/cgi-bin/qm/qr?k=hiPJrntFaxlzcF6pJ4swHNrXGxbv16Ek&jump_from=webapi&authKey=w1QVa8tZUkbAZSL6EoQIaoko1frqj+a67i2SRMgWGe/UvB+i8bvse5CdCXF3wJKS)
+- 联系客服：[点击咨询](https://qm.qq.com/q/l8HDomqX4I)
+- 访问官网：[PayPHP官网](https://payphp.cn/)
+
+---
+
+© 2024 PayPHP. 保留所有权利。
