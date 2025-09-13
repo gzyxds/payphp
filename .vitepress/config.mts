@@ -188,9 +188,32 @@ export default defineConfig({
               link: "/help/shop"
             }
           ]
+        },
+        {
+          text: "🍵友情连接",
+          collapsed: false,
+          items: [
+            {
+              text: "🌩️优刻云",
+              link: "https://www.cloudcvm.com"
+            },
+            {
+              text: "💡艺创AI",
+              link: "https://artaigc.cn/"
+            },
+            {
+              text: "🎯AI创作",
+              link: "https://www.cnai.art/"
+            },
+            {
+              text: "📲172号卡",
+              link: "https://www.urlka.cn"
+            }
+          ]
         }
       ]
     },
+    
     footer: {
       message: "赣ICP备2023002309号-8",
       copyright: "© 2024 PayPHP. 保留所有权利。"
