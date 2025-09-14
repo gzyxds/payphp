@@ -100,14 +100,7 @@ export default defineConfig({
           text: "📖云端教程",
           collapsed: false,
           items: [
-            {
-              text: "iPad自建云端",
-              link: "/help/ipad"
-            },
-            {
-              text: "imac自建云端",
-              link: "/help/imac"
-            },
+
             {
               text: "闲蛋自建云端",
               link: "/help/xyd"
@@ -115,6 +108,14 @@ export default defineConfig({
             {
               text: "靓仔自建云端",
               link: "/help/lzyd"
+            },
+            {
+              text: "iPad自建云端x",
+              link: "/help/ipad"
+            },
+            {
+              text: "imac自建云端x",
+              link: "/help/imac"
             }
           ]
         },
