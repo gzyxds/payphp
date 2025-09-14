@@ -132,7 +132,7 @@ export default defineConfig({
               link: "/merchant/fqa/jk/APP"
             },
             {
-              text: "💻 PC三网监控",
+              text: "💻 PC闲蛋监控",
               link: "/merchant/fqa/jk/pcxd"
             },
             {
@@ -157,14 +157,14 @@ export default defineConfig({
               text: "💰 支付宝通道",
               link: "/merchant/fqa/td/zfb"
             },
-            // {
-            //   text: "📱 闲蛋通道",
-            //   link: "/merchant/fqa/td/xd"
-            // },
-            // {
-            //   text: "👤 靓仔通道",
-            //   link: "/merchant/fqa/td/lz"
-            // }
+            {
+              text: "📱 闲蛋通道",
+              link: "/merchant/fqa/td/xd"
+            },
+            {
+              text: "👤 靓仔通道",
+              link: "/merchant/fqa/td/lz"
+            }
           ]
         },
         {
