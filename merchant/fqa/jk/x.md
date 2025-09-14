@@ -8,7 +8,7 @@
 
 配置后无效果，请到应用权限管理里手动授予权限
 
-平台地址填本站域名https://merch.payphp.cn
+平台地址填本站域名https://merch.PaYphp.cn
 
 商户ID自行在后台API处复制
 

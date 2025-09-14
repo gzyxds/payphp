@@ -1,4 +1,4 @@
-# Payphp三网PC监控
+# PaYphp三网PC监控
 
 > [!TIP]
 > 本文挂机宝配置：2+2

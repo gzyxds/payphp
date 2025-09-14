@@ -1,11 +1,11 @@
-payphp支付系统PHP版
-[官网](https://www.payphp.cn) |
-[在线体验](https://www.payphp.cn) |
-[帮助文档](https://www.payphp.cn)
+PaYphp支付系统PHP版
+[官网](https://www.PaYphp.cn) |
+[在线体验](https://www.PaYphp.cn) |
+[帮助文档](https://www.PaYphp.cn)
 
 ### 📝 介绍
 
-Payphp是专为个人站长打造的聚合免签系统，拥有卓越的性能和丰富的功能。它采用全新轻量化的界面UI，让您能更方便快捷地解决知识付费和运营赞助的难题。
+PaYphp是专为个人站长打造的聚合免签系统，拥有卓越的性能和丰富的功能。它采用全新轻量化的界面UI，让您能更方便快捷地解决知识付费和运营赞助的难题。
 
 同时，它基于高性能的ThinkPHP 6.1.4 + Layui2.9.9 + PearAdmin架构，提供实时监控和管理功能，让您随时随地掌握系统运营情况。
 
@@ -39,7 +39,7 @@ Supervison
 
 ### 📱 系统演示
 
-演示前台：[https://www.payphp.cn](https://www.payphp.cn)
+演示前台：[https://www.PaYphp.cn](https://www.PaYphp.cn)
 
 管理后台：
 
@@ -85,7 +85,7 @@ Apache License 2.0 是一种宽松的开源许可，允许人们自由使用、�
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
-版权所有Copyright © 2019-2024 by Payphp (https://www.payphp.cn)
+版权所有Copyright © 2019-2024 by PaYphp (https://www.PaYphp.cn)
 
 All rights reserved。
 

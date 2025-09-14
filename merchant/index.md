@@ -4,7 +4,7 @@
 
 ## 快速开始
 
-1. **注册账号** - 访问 [商户中心](https://merch.payphp.cn/) 注册您的账号
+1. **注册账号** - 访问 [商户中心](https://merch.PaYphp.cn/) 注册您的账号
 2. **登录系统** - 使用您的账号和密码登录商户中心
 3. **配置监控** - 根据您的需求配置 [APP监控](./fqa/jk/APP.md) 或 PC监控
 4. **设置通道** - 配置您的支付通道，如 [QQ通道](./fqa/td/qq.md)、[微信通道](./fqa/td/wx.md) 等
@@ -38,8 +38,8 @@
 
 - 加入商户Q群：[点击加入](https://qm.qq.com/cgi-bin/qm/qr?k=hiPJrntFaxlzcF6pJ4swHNrXGxbv16Ek&jump_from=webapi&authKey=w1QVa8tZUkbAZSL6EoQIaoko1frqj+a67i2SRMgWGe/UvB+i8bvse5CdCXF3wJKS)
 - 联系客服：[点击咨询](https://qm.qq.com/q/l8HDomqX4I)
-- 访问官网：[PayPHP官网](https://payphp.cn/)
+- 访问官网：[PaYphp官网](https://PaYphp.cn/)
 
 ---
 
-© 2024 PayPHP. 保留所有权利。
+© 2024 PaYphp. 保留所有权利。
