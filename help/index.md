@@ -54,7 +54,7 @@ PaYphp码支付支持便捷的CK信息更新，无需通过手机相机扫码，
 
 ::: info `商户可直接注册使用`
 支持主流的、易支付、码支付、发卡网、教程网、以及虚拟资源站、AI系统、网站对接
- [点我跳转：立即使用](https://merch.PaYphp.cn/User/Login/Index)
+ [点我跳转：立即使用](https://merch.PaYphp.cn)
 :::
 
 
