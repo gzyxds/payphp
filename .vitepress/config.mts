@@ -100,7 +100,10 @@ export default defineConfig({
           text: "📖云端教程",
           collapsed: false,
           items: [
-
+            {
+              text: "自建云端卡密",
+              link: "/help/yun"
+            },
             {
               text: "闲蛋自建云端",
               link: "/help/xyd"
