@@ -19,7 +19,6 @@
 :::
 
 
-
 ::: info 产品特色
 全网最简单的云端程序！无需其他花里胡哨的东西！
 :::
@@ -83,10 +82,10 @@
 
 ### 自建云端卡密 / 一年时间
 
-![云端界面展示](https://www.xdau.cn/wp-content/uploads/2025/06/8ae4da6c37a442940b257d2040dcfc76.webp)
+![云端界面展示](/images/yun-interface.webp)
 
-![功能配置界面](https://www.xdau.cn/wp-content/uploads/2025/06/1f98e7888d10e05b7d74296e75cbcbcf.webp)
+![功能配置界面](/images/yun-config.webp)
 
-![代理设置界面](https://www.xdau.cn/wp-content/uploads/2025/06/21a66dcc6a308bd771d3f3bac017b720.webp)
+![代理设置界面](/images/yun-proxy.webp)
 
-![运行状态界面](https://www.xdau.cn/wp-content/uploads/2025/06/a3f32e82fe2da71103fdb6bdae61f26b.webp)
+![运行状态界面](/images/yun-status.webp)
