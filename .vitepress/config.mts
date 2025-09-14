@@ -163,6 +163,10 @@ export default defineConfig({
               link: "/merchant/fqa/jk/APP"
             },
             {
+              text: "📱 X转发器",
+              link: "/merchant/fqa/jk/x"
+            },
+            {
               text: "💻 PC三网监控",
               link: "/merchant/fqa/jk/pcxd"
             },
