@@ -263,7 +263,7 @@ export default defineConfig({
 
     footer: {
       message: "赣ICP备2023002309号-8",
-      copyright: "© 2024 PayPHP. 保留所有权利。"
+      copyright: "© 2024 PaYphp. 保留所有权利。"
     },
     prev: "上一篇",
     returnToTopLabel: "返回顶部",
