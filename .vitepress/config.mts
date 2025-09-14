@@ -186,6 +186,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              text: "💰 商家账单",
+              link: "/merchant/fqa/td/alipay"
+            },
+            {
               text: "🐧 QQ通道",
               link: "/merchant/fqa/td/qq"
             },
