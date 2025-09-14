@@ -142,7 +142,7 @@ export default defineConfig({
             ,
             {
               text: "💻 监控软件下载",
-              link: "/merchant/fqa/jk/pc"
+              link: "https://www.123865.com/s/AIVRVv-uwgJA"
             }
           ]
         },
