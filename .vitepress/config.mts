@@ -96,6 +96,28 @@ export default defineConfig({
             }
           ]
         },
+         {
+          text: "📖云端教程",
+          collapsed: false,
+          items: [
+            {
+              text: "iPad自建云端",
+              link: "/help/ipad"
+            },
+            {
+              text: "imac自建云端",
+              link: "/help/imac"
+            },
+            {
+              text: "闲蛋自建云端",
+              link: "/help/xyd"
+            },
+            {
+              text: "靓仔自建云端",
+              link: "/help/lzyd"
+            }
+          ]
+        },
         {
           text: "🍵友情连接",
           collapsed: false,
