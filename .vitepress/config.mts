@@ -132,7 +132,7 @@ export default defineConfig({
               link: "/merchant/fqa/jk/APP"
             },
             {
-              text: "💻 PC闲蛋监控",
+              text: "💻 PC三网监控",
               link: "/merchant/fqa/jk/pcxd"
             },
             {
@@ -358,3 +358,7 @@ export default defineConfig({
     }
   }
 });
+
+
+
+
