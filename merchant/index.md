@@ -14,7 +14,7 @@
 
 ### 监控端
 - [APP监控](./fqa/jk/APP.md) - 移动端监控配置指南
-- [PC三网监控](./fqa/jk/pc.md) - PC端三网监控配置指南
+- [PC三网监控](./fqa/jk/pcxd.md) - PC端三网监控配置指南
 - [PC靓仔监控](./fqa/jk/pclz.md) - PC端靓仔监控配置指南
 
 ### 通道管理

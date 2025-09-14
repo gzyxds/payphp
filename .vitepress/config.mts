@@ -139,6 +139,11 @@ export default defineConfig({
               text: "🖥️ PC靓仔监控",
               link: "/merchant/fqa/jk/pclz"
             }
+            ,
+            {
+              text: "💻 监控软件下载",
+              link: "/merchant/fqa/jk/pc"
+            }
           ]
         },
         {
