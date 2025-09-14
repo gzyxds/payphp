@@ -15,6 +15,9 @@ APP监控使用`SmsForwarder`进行数据转发
 > [!TIP]
 > 这里介绍使用APP进行监控的通用方法，具体支持通道请自行测试！
 
+> [!TIP] APP监控软件
+> 链   接：https://www.123865.com/s/AIVRVv-5ggJA
+
 ---
 
 软件下载请到售后群文件夹或项目仓库
@@ -25,12 +28,12 @@ APP监控使用`SmsForwarder`进行数据转发
 
 ## 通用设置
 
-> [!TIP]
+> [!TIP] 必备设置
 > 必备设置，其他请根据自身需求配置
 
 ---
 
-> [!NOTE]
+> [!NOTE] 注意！！！
 > 配置后无效果，请到应用权限管理里手动授予权限
 
 1. 打开`转发功能`下的`转发应用通知`，如需权限请授予（通知使用权限）
@@ -76,17 +79,17 @@ APP监控使用`SmsForwarder`进行数据转发
 ## 发送通道
 
 > [!TIP]
-> 以个人版为例，商户版本自行对应填写
+> 以商户版为例，配置方法与个人版相同
 
 1. 新增`发送通道`，选择`Webhook`类型，请求方式选择`POST`
 2. 在`WebHookServer`中填入`短信转发器通知地址`
 3. 点击保存
 
-![发送通道配置界面1](https://s2.loli.net/2024/08/03/Urmb4qZFC6Q7oWz.png)
+![发送通道配置界面1](/images/help/faq1.jpg)
 
 *图：发送通道配置界面1*
 
-![发送通道配置界面2](https://s2.loli.net/2024/08/03/UOvscVy4ZjKdbRN.png)
+![发送通道配置界面2](/images/help/help2.jpg)
 
 *图：发送通道配置界面2*
 
@@ -104,7 +107,7 @@ APP监控使用`SmsForwarder`进行数据转发
 - 微信：`com.tencent.mm`
 - 支付宝：`com.eg.android.AlipayGphone`
 
-![转发规则配置界面](https://s2.loli.net/2024/08/03/rhmAocUHP6nRsLa.png)
+![转发规则配置界面](/images/help/help3.jpg)
 
 *图：转发规则配置界面*
 

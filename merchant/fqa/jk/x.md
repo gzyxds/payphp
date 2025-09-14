@@ -17,4 +17,8 @@
 白名单＋微信QQ支付宝，其他监控添加对应APP，如京东
 :::
 
+> [!TIP] APP监控软件
+> 链   接：https://www.123865.com/s/AIVRVv-5ggJA
+
+
 ![](https://www.950621.cn/wp-content/uploads/2025/01/be54fecefd20250103231808.jpg)

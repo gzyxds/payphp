@@ -4,9 +4,11 @@
 > 本文挂机宝配置：2+2，Windows Server 2016 Datacenter 64-bit (10.0, Build 14393)
 
 ## 安装运行
-
-> [!TIP]
+```
 > 软件下载请到售后群文件夹
+> PC监控软件
+> 链   接：https://www.123865.com/s/AIVRVv-qggJA
+```
 
 1. 下载后得到一个压缩包，将压缩包解压到单独文件夹中
 2. 双击运行 `Pc自挂服务端.exe`
