@@ -29,7 +29,7 @@ export default defineConfig({
         text: "🏠 网站首页", // 使用简洁的emoji图标配合文字
         link: "/"
       },
-      
+
       {
         text: "📋 系统介绍", // 使用简洁的emoji图标配合文字
         link: "/help/index"
@@ -85,6 +85,14 @@ export default defineConfig({
             {
               text: "🎨宝塔安装",
               link: "/help/Setup"
+            },
+            {
+              text: "🔧 命令行工具",
+              link: "/help/cli"
+            },
+            {
+              text: "📝 附录",
+              link: "/help/fl"
             }
           ]
         },
@@ -218,7 +226,7 @@ export default defineConfig({
         }
       ]
     },
-    
+
     footer: {
       message: "赣ICP备2023002309号-8",
       copyright: "© 2024 PayPHP. 保留所有权利。"
