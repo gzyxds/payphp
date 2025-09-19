@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.12"
+  },
+  "scripts": {
+    "docs:dev": "npx vitepress dev",
+    "docs:build": "node --experimental-global-webcrypto node_modules/vitepress/bin/vitepress.js build",
+    "docs:preview": "npx vitepress preview"
+  }
+}
