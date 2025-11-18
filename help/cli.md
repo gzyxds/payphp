@@ -7,7 +7,7 @@ PaYphp支付系统提供了命令行工具，用于执行一些系统管理和�
 在支付系统安装目录下，执行以下命令进入命令行工具：
 
 ```bash
-./xarr-merchat tools
+./xarr-pay-merchant tools
 ```
 
 执行后，系统将显示如下界面：
