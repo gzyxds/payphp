@@ -10,6 +10,7 @@
 # 应用源地址（主源）
 后台-应用商店-设置应用源
 https://apps.xarr.cn/xarr-pay/plugins.json
+https://doc.xarr.uk/package.json
 https://raw.githubusercontent.com/touchear/xarr-pay-plugins/refs/heads/main/package.json
 https://2099.kstore.space/%E9%9D%93%E4%BB%94%E4%BA%91%E7%AB%AF/plug.json
 ```
