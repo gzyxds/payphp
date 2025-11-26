@@ -5,6 +5,7 @@
   "scripts": {
     "docs:dev": "npx vitepress dev",
     "docs:build": "node --experimental-global-webcrypto node_modules/vitepress/bin/vitepress.js build",
-    "docs:preview": "npx vitepress preview"
+    "docs:preview": "npx vitepress preview",
+    "build": "npm run docs:build"
   }
 }
