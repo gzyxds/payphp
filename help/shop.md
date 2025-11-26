@@ -16,7 +16,7 @@ QQ：236749035
   </div>
 
   <div style="text-align: center; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background: #fff;">
-    <img src="../.vitepress/images/gzh.jpg" alt="公众号二维码" width="200" height="200" style="border-radius: 4px;">
+    <img src="/images/gzh.jpg" alt="公众号二维码" width="200" height="200" style="border-radius: 4px;">
     <p style="margin: 10px 0 0; color: #666; font-size: 14px;">公众号二维码</p>
   </div>
 </div>
